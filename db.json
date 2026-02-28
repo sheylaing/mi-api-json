@@ -1,0 +1,933 @@
+{
+  "books": [
+    {
+      "id": 1,
+      "name": "Clean Code",
+      "author": "Yuval Noah Harari",
+      "year": 2022,
+      "isbn10": "0000000001",
+      "isbn13": "9780000000001",
+      "category": "Fantasía",
+      "language": "Inglés",
+      "description": "Descripción del libro Clean Code.",
+      "reviews": [
+        "Muy bueno",
+        "Recomendado"
+      ],
+      "cover": "https://covers.openlibrary.org/b/isbn/9780000000001-L.jpg",
+      "available": false
+    },
+    {
+      "id": 2,
+      "name": "The Pragmatic Programmer",
+      "author": "Suzanne Collins",
+      "year": 2013,
+      "isbn10": "0000000002",
+      "isbn13": "9780000000002",
+      "category": "Historia",
+      "language": "Inglés",
+      "description": "Descripción del libro The Pragmatic Programmer.",
+      "reviews": [
+        "Muy bueno",
+        "Recomendado"
+      ],
+      "cover": "https://covers.openlibrary.org/b/isbn/9780000000002-L.jpg",
+      "available": false
+    },
+    {
+      "id": 3,
+      "name": "Cien años de soledad",
+      "author": "Gabriel García Márquez",
+      "year": 1989,
+      "isbn10": "0000000003",
+      "isbn13": "9780000000003",
+      "category": "Novela",
+      "language": "Español",
+      "description": "Descripción del libro Cien años de soledad.",
+      "reviews": [
+        "Muy bueno",
+        "Recomendado"
+      ],
+      "cover": "https://covers.openlibrary.org/b/isbn/9780000000003-L.jpg",
+      "available": false
+    },
+    {
+      "id": 4,
+      "name": "1984",
+      "author": "Dante Alighieri",
+      "year": 1972,
+      "isbn10": "0000000004",
+      "isbn13": "9780000000004",
+      "category": "Clásico",
+      "language": "Español",
+      "description": "Descripción del libro 1984.",
+      "reviews": [
+        "Muy bueno",
+        "Recomendado"
+      ],
+      "cover": "https://covers.openlibrary.org/b/isbn/9780000000004-L.jpg",
+      "available": false
+    },
+    {
+      "id": 5,
+      "name": "El Principito",
+      "author": "George Orwell",
+      "year": 1972,
+      "isbn10": "0000000005",
+      "isbn13": "9780000000005",
+      "category": "Historia",
+      "language": "Español",
+      "description": "Descripción del libro El Principito.",
+      "reviews": [
+        "Muy bueno",
+        "Recomendado"
+      ],
+      "cover": "https://covers.openlibrary.org/b/isbn/9780000000005-L.jpg",
+      "available": false
+    },
+    {
+      "id": 6,
+      "name": "Harry Potter y la piedra filosofal",
+      "author": "Jane Austen",
+      "year": 1957,
+      "isbn10": "0000000006",
+      "isbn13": "9780000000006",
+      "category": "Clásico",
+      "language": "Español",
+      "description": "Descripción del libro Harry Potter y la piedra filosofal.",
+      "reviews": [
+        "Muy bueno",
+        "Recomendado"
+      ],
+      "cover": "https://covers.openlibrary.org/b/isbn/9780000000006-L.jpg",
+      "available": false
+    },
+    {
+      "id": 7,
+      "name": "El Señor de los Anillos",
+      "author": "Robert C. Martin",
+      "year": 1977,
+      "isbn10": "0000000007",
+      "isbn13": "9780000000007",
+      "category": "Historia",
+      "language": "Español",
+      "description": "Descripción del libro El Señor de los Anillos.",
+      "reviews": [
+        "Muy bueno",
+        "Recomendado"
+      ],
+      "cover": "https://covers.openlibrary.org/b/isbn/9780000000007-L.jpg",
+      "available": false
+    },
+    {
+      "id": 8,
+      "name": "Sapiens",
+      "author": "George Orwell",
+      "year": 1968,
+      "isbn10": "0000000008",
+      "isbn13": "9780000000008",
+      "category": "Desarrollo Personal",
+      "language": "Español",
+      "description": "Descripción del libro Sapiens.",
+      "reviews": [
+        "Muy bueno",
+        "Recomendado"
+      ],
+      "cover": "https://covers.openlibrary.org/b/isbn/9780000000008-L.jpg",
+      "available": false
+    },
+    {
+      "id": 9,
+      "name": "Atomic Habits",
+      "author": "Antoine de Saint-Exupéry",
+      "year": 2001,
+      "isbn10": "0000000009",
+      "isbn13": "9780000000009",
+      "category": "Psicología",
+      "language": "Español",
+      "description": "Descripción del libro Atomic Habits.",
+      "reviews": [
+        "Muy bueno",
+        "Recomendado"
+      ],
+      "cover": "https://covers.openlibrary.org/b/isbn/9780000000009-L.jpg",
+      "available": false
+    },
+    {
+      "id": 10,
+      "name": "El Código Da Vinci",
+      "author": "Robert C. Martin",
+      "year": 1953,
+      "isbn10": "0000000010",
+      "isbn13": "9780000000010",
+      "category": "Novela",
+      "language": "Español",
+      "description": "Descripción del libro El Código Da Vinci.",
+      "reviews": [
+        "Muy bueno",
+        "Recomendado"
+      ],
+      "cover": "https://covers.openlibrary.org/b/isbn/9780000000010-L.jpg",
+      "available": false
+    },
+    {
+      "id": 11,
+      "name": "La Metamorfosis",
+      "author": "Yuval Noah Harari",
+      "year": 1981,
+      "isbn10": "0000000011",
+      "isbn13": "9780000000011",
+      "category": "Finanzas",
+      "language": "Español",
+      "description": "Descripción del libro La Metamorfosis.",
+      "reviews": [
+        "Muy bueno",
+        "Recomendado"
+      ],
+      "cover": "https://covers.openlibrary.org/b/isbn/9780000000011-L.jpg",
+      "available": false
+    },
+    {
+      "id": 12,
+      "name": "Inferno",
+      "author": "Antoine de Saint-Exupéry",
+      "year": 2022,
+      "isbn10": "0000000012",
+      "isbn13": "9780000000012",
+      "category": "Novela",
+      "language": "Inglés",
+      "description": "Descripción del libro Inferno.",
+      "reviews": [
+        "Muy bueno",
+        "Recomendado"
+      ],
+      "cover": "https://covers.openlibrary.org/b/isbn/9780000000012-L.jpg",
+      "available": true
+    },
+    {
+      "id": 13,
+      "name": "El Hobbit",
+      "author": "Yuval Noah Harari",
+      "year": 1955,
+      "isbn10": "0000000013",
+      "isbn13": "9780000000013",
+      "category": "Programación",
+      "language": "Inglés",
+      "description": "Descripción del libro El Hobbit.",
+      "reviews": [
+        "Muy bueno",
+        "Recomendado"
+      ],
+      "cover": "https://covers.openlibrary.org/b/isbn/9780000000013-L.jpg",
+      "available": true
+    },
+    {
+      "id": 14,
+      "name": "Padre Rico Padre Pobre",
+      "author": "Gabriel García Márquez",
+      "year": 1998,
+      "isbn10": "0000000014",
+      "isbn13": "9780000000014",
+      "category": "Ciencia",
+      "language": "Inglés",
+      "description": "Descripción del libro Padre Rico Padre Pobre.",
+      "reviews": [
+        "Muy bueno",
+        "Recomendado"
+      ],
+      "cover": "https://covers.openlibrary.org/b/isbn/9780000000014-L.jpg",
+      "available": true
+    },
+    {
+      "id": 15,
+      "name": "Crónica de una muerte anunciada",
+      "author": "Franz Kafka",
+      "year": 2022,
+      "isbn10": "0000000015",
+      "isbn13": "9780000000015",
+      "category": "Desarrollo Personal",
+      "language": "Español",
+      "description": "Descripción del libro Crónica de una muerte anunciada.",
+      "reviews": [
+        "Muy bueno",
+        "Recomendado"
+      ],
+      "cover": "https://covers.openlibrary.org/b/isbn/9780000000015-L.jpg",
+      "available": true
+    },
+    {
+      "id": 16,
+      "name": "La Odisea",
+      "author": "J.K. Rowling",
+      "year": 1950,
+      "isbn10": "0000000016",
+      "isbn13": "9780000000016",
+      "category": "Finanzas",
+      "language": "Inglés",
+      "description": "Descripción del libro La Odisea.",
+      "reviews": [
+        "Muy bueno",
+        "Recomendado"
+      ],
+      "cover": "https://covers.openlibrary.org/b/isbn/9780000000016-L.jpg",
+      "available": true
+    },
+    {
+      "id": 17,
+      "name": "La Divina Comedia",
+      "author": "Daniel Kahneman",
+      "year": 1952,
+      "isbn10": "0000000017",
+      "isbn13": "9780000000017",
+      "category": "Finanzas",
+      "language": "Español",
+      "description": "Descripción del libro La Divina Comedia.",
+      "reviews": [
+        "Muy bueno",
+        "Recomendado"
+      ],
+      "cover": "https://covers.openlibrary.org/b/isbn/9780000000017-L.jpg",
+      "available": true
+    },
+    {
+      "id": 18,
+      "name": "Thinking Fast and Slow",
+      "author": "Andrew Hunt",
+      "year": 1974,
+      "isbn10": "0000000018",
+      "isbn13": "9780000000018",
+      "category": "Desarrollo Personal",
+      "language": "Español",
+      "description": "Descripción del libro Thinking Fast and Slow.",
+      "reviews": [
+        "Muy bueno",
+        "Recomendado"
+      ],
+      "cover": "https://covers.openlibrary.org/b/isbn/9780000000018-L.jpg",
+      "available": true
+    },
+    {
+      "id": 19,
+      "name": "Orgullo y Prejuicio",
+      "author": "J.R.R. Tolkien",
+      "year": 2009,
+      "isbn10": "0000000019",
+      "isbn13": "9780000000019",
+      "category": "Psicología",
+      "language": "Español",
+      "description": "Descripción del libro Orgullo y Prejuicio.",
+      "reviews": [
+        "Muy bueno",
+        "Recomendado"
+      ],
+      "cover": "https://covers.openlibrary.org/b/isbn/9780000000019-L.jpg",
+      "available": true
+    },
+    {
+      "id": 20,
+      "name": "Los Juegos del Hambre",
+      "author": "Robert C. Martin",
+      "year": 1996,
+      "isbn10": "0000000020",
+      "isbn13": "9780000000020",
+      "category": "Thriller",
+      "language": "Inglés",
+      "description": "Descripción del libro Los Juegos del Hambre.",
+      "reviews": [
+        "Muy bueno",
+        "Recomendado"
+      ],
+      "cover": "https://covers.openlibrary.org/b/isbn/9780000000020-L.jpg",
+      "available": true
+    },
+    {
+      "id": 21,
+      "name": "The Pragmatic Programmer Vol 21",
+      "author": "Yuval Noah Harari",
+      "year": 1986,
+      "isbn10": "0000000021",
+      "isbn13": "9780000000021",
+      "category": "Psicología",
+      "language": "Inglés",
+      "description": "Descripción del libro The Pragmatic Programmer Vol 21.",
+      "reviews": [
+        "Muy bueno",
+        "Recomendado"
+      ],
+      "cover": "https://covers.openlibrary.org/b/isbn/9780000000021-L.jpg",
+      "available": true
+    },
+    {
+      "id": 22,
+      "name": "Cien años de soledad Vol 22",
+      "author": "Franz Kafka",
+      "year": 2020,
+      "isbn10": "0000000022",
+      "isbn13": "9780000000022",
+      "category": "Programación",
+      "language": "Inglés",
+      "description": "Descripción del libro Cien años de soledad Vol 22.",
+      "reviews": [
+        "Muy bueno",
+        "Recomendado"
+      ],
+      "cover": "https://covers.openlibrary.org/b/isbn/9780000000022-L.jpg",
+      "available": true
+    },
+    {
+      "id": 23,
+      "name": "1984 Vol 23",
+      "author": "Robert C. Martin",
+      "year": 1962,
+      "isbn10": "0000000023",
+      "isbn13": "9780000000023",
+      "category": "Thriller",
+      "language": "Inglés",
+      "description": "Descripción del libro 1984 Vol 23.",
+      "reviews": [
+        "Muy bueno",
+        "Recomendado"
+      ],
+      "cover": "https://covers.openlibrary.org/b/isbn/9780000000023-L.jpg",
+      "available": true
+    },
+    {
+      "id": 24,
+      "name": "El Principito Vol 24",
+      "author": "Robert Kiyosaki",
+      "year": 2022,
+      "isbn10": "0000000024",
+      "isbn13": "9780000000024",
+      "category": "Historia",
+      "language": "Inglés",
+      "description": "Descripción del libro El Principito Vol 24.",
+      "reviews": [
+        "Muy bueno",
+        "Recomendado"
+      ],
+      "cover": "https://covers.openlibrary.org/b/isbn/9780000000024-L.jpg",
+      "available": true
+    },
+    {
+      "id": 25,
+      "name": "Harry Potter y la piedra filosofal Vol 25",
+      "author": "Gabriel García Márquez",
+      "year": 2011,
+      "isbn10": "0000000025",
+      "isbn13": "9780000000025",
+      "category": "Fantasía",
+      "language": "Español",
+      "description": "Descripción del libro Harry Potter y la piedra filosofal Vol 25.",
+      "reviews": [
+        "Muy bueno",
+        "Recomendado"
+      ],
+      "cover": "https://covers.openlibrary.org/b/isbn/9780000000025-L.jpg",
+      "available": true
+    },
+    {
+      "id": 26,
+      "name": "El Señor de los Anillos Vol 26",
+      "author": "J.K. Rowling",
+      "year": 1981,
+      "isbn10": "0000000026",
+      "isbn13": "9780000000026",
+      "category": "Clásico",
+      "language": "Inglés",
+      "description": "Descripción del libro El Señor de los Anillos Vol 26.",
+      "reviews": [
+        "Muy bueno",
+        "Recomendado"
+      ],
+      "cover": "https://covers.openlibrary.org/b/isbn/9780000000026-L.jpg",
+      "available": true
+    },
+    {
+      "id": 27,
+      "name": "Sapiens Vol 27",
+      "author": "Dante Alighieri",
+      "year": 1997,
+      "isbn10": "0000000027",
+      "isbn13": "9780000000027",
+      "category": "Novela",
+      "language": "Inglés",
+      "description": "Descripción del libro Sapiens Vol 27.",
+      "reviews": [
+        "Muy bueno",
+        "Recomendado"
+      ],
+      "cover": "https://covers.openlibrary.org/b/isbn/9780000000027-L.jpg",
+      "available": true
+    },
+    {
+      "id": 28,
+      "name": "Atomic Habits Vol 28",
+      "author": "Dan Brown",
+      "year": 1989,
+      "isbn10": "0000000028",
+      "isbn13": "9780000000028",
+      "category": "Fantasía",
+      "language": "Español",
+      "description": "Descripción del libro Atomic Habits Vol 28.",
+      "reviews": [
+        "Muy bueno",
+        "Recomendado"
+      ],
+      "cover": "https://covers.openlibrary.org/b/isbn/9780000000028-L.jpg",
+      "available": true
+    },
+    {
+      "id": 29,
+      "name": "El Código Da Vinci Vol 29",
+      "author": "Franz Kafka",
+      "year": 2014,
+      "isbn10": "0000000029",
+      "isbn13": "9780000000029",
+      "category": "Ciencia",
+      "language": "Inglés",
+      "description": "Descripción del libro El Código Da Vinci Vol 29.",
+      "reviews": [
+        "Muy bueno",
+        "Recomendado"
+      ],
+      "cover": "https://covers.openlibrary.org/b/isbn/9780000000029-L.jpg",
+      "available": true
+    },
+    {
+      "id": 30,
+      "name": "La Metamorfosis Vol 30",
+      "author": "Robert C. Martin",
+      "year": 1963,
+      "isbn10": "0000000030",
+      "isbn13": "9780000000030",
+      "category": "Psicología",
+      "language": "Inglés",
+      "description": "Descripción del libro La Metamorfosis Vol 30.",
+      "reviews": [
+        "Muy bueno",
+        "Recomendado"
+      ],
+      "cover": "https://covers.openlibrary.org/b/isbn/9780000000030-L.jpg",
+      "available": true
+    },
+    {
+      "id": 31,
+      "name": "Inferno Vol 31",
+      "author": "George Orwell",
+      "year": 1969,
+      "isbn10": "0000000031",
+      "isbn13": "9780000000031",
+      "category": "Novela",
+      "language": "Español",
+      "description": "Descripción del libro Inferno Vol 31.",
+      "reviews": [
+        "Muy bueno",
+        "Recomendado"
+      ],
+      "cover": "https://covers.openlibrary.org/b/isbn/9780000000031-L.jpg",
+      "available": true
+    },
+    {
+      "id": 32,
+      "name": "El Hobbit Vol 32",
+      "author": "Homero",
+      "year": 2019,
+      "isbn10": "0000000032",
+      "isbn13": "9780000000032",
+      "category": "Novela",
+      "language": "Inglés",
+      "description": "Descripción del libro El Hobbit Vol 32.",
+      "reviews": [
+        "Muy bueno",
+        "Recomendado"
+      ],
+      "cover": "https://covers.openlibrary.org/b/isbn/9780000000032-L.jpg",
+      "available": true
+    },
+    {
+      "id": 33,
+      "name": "Padre Rico Padre Pobre Vol 33",
+      "author": "James Clear",
+      "year": 2020,
+      "isbn10": "0000000033",
+      "isbn13": "9780000000033",
+      "category": "Programación",
+      "language": "Español",
+      "description": "Descripción del libro Padre Rico Padre Pobre Vol 33.",
+      "reviews": [
+        "Muy bueno",
+        "Recomendado"
+      ],
+      "cover": "https://covers.openlibrary.org/b/isbn/9780000000033-L.jpg",
+      "available": true
+    },
+    {
+      "id": 34,
+      "name": "Crónica de una muerte anunciada Vol 34",
+      "author": "Yuval Noah Harari",
+      "year": 1961,
+      "isbn10": "0000000034",
+      "isbn13": "9780000000034",
+      "category": "Psicología",
+      "language": "Español",
+      "description": "Descripción del libro Crónica de una muerte anunciada Vol 34.",
+      "reviews": [
+        "Muy bueno",
+        "Recomendado"
+      ],
+      "cover": "https://covers.openlibrary.org/b/isbn/9780000000034-L.jpg",
+      "available": true
+    },
+    {
+      "id": 35,
+      "name": "La Odisea Vol 35",
+      "author": "Homero",
+      "year": 1958,
+      "isbn10": "0000000035",
+      "isbn13": "9780000000035",
+      "category": "Psicología",
+      "language": "Inglés",
+      "description": "Descripción del libro La Odisea Vol 35.",
+      "reviews": [
+        "Muy bueno",
+        "Recomendado"
+      ],
+      "cover": "https://covers.openlibrary.org/b/isbn/9780000000035-L.jpg",
+      "available": true
+    },
+    {
+      "id": 36,
+      "name": "La Divina Comedia Vol 36",
+      "author": "Yuval Noah Harari",
+      "year": 1982,
+      "isbn10": "0000000036",
+      "isbn13": "9780000000036",
+      "category": "Historia",
+      "language": "Español",
+      "description": "Descripción del libro La Divina Comedia Vol 36.",
+      "reviews": [
+        "Muy bueno",
+        "Recomendado"
+      ],
+      "cover": "https://covers.openlibrary.org/b/isbn/9780000000036-L.jpg",
+      "available": true
+    },
+    {
+      "id": 37,
+      "name": "Thinking Fast and Slow Vol 37",
+      "author": "Robert C. Martin",
+      "year": 1964,
+      "isbn10": "0000000037",
+      "isbn13": "9780000000037",
+      "category": "Finanzas",
+      "language": "Inglés",
+      "description": "Descripción del libro Thinking Fast and Slow Vol 37.",
+      "reviews": [
+        "Muy bueno",
+        "Recomendado"
+      ],
+      "cover": "https://covers.openlibrary.org/b/isbn/9780000000037-L.jpg",
+      "available": true
+    },
+    {
+      "id": 38,
+      "name": "Orgullo y Prejuicio Vol 38",
+      "author": "Robert Kiyosaki",
+      "year": 2002,
+      "isbn10": "0000000038",
+      "isbn13": "9780000000038",
+      "category": "Fantasía",
+      "language": "Inglés",
+      "description": "Descripción del libro Orgullo y Prejuicio Vol 38.",
+      "reviews": [
+        "Muy bueno",
+        "Recomendado"
+      ],
+      "cover": "https://covers.openlibrary.org/b/isbn/9780000000038-L.jpg",
+      "available": true
+    },
+    {
+      "id": 39,
+      "name": "Los Juegos del Hambre Vol 39",
+      "author": "J.K. Rowling",
+      "year": 2021,
+      "isbn10": "0000000039",
+      "isbn13": "9780000000039",
+      "category": "Finanzas",
+      "language": "Inglés",
+      "description": "Descripción del libro Los Juegos del Hambre Vol 39.",
+      "reviews": [
+        "Muy bueno",
+        "Recomendado"
+      ],
+      "cover": "https://covers.openlibrary.org/b/isbn/9780000000039-L.jpg",
+      "available": true
+    },
+    {
+      "id": 40,
+      "name": "Clean Code Vol 40",
+      "author": "J.R.R. Tolkien",
+      "year": 2006,
+      "isbn10": "0000000040",
+      "isbn13": "9780000000040",
+      "category": "Programación",
+      "language": "Inglés",
+      "description": "Descripción del libro Clean Code Vol 40.",
+      "reviews": [
+        "Muy bueno",
+        "Recomendado"
+      ],
+      "cover": "https://covers.openlibrary.org/b/isbn/9780000000040-L.jpg",
+      "available": true
+    },
+    {
+      "id": 41,
+      "name": "The Pragmatic Programmer Vol 41",
+      "author": "George Orwell",
+      "year": 2017,
+      "isbn10": "0000000041",
+      "isbn13": "9780000000041",
+      "category": "Programación",
+      "language": "Español",
+      "description": "Descripción del libro The Pragmatic Programmer Vol 41.",
+      "reviews": [
+        "Muy bueno",
+        "Recomendado"
+      ],
+      "cover": "https://covers.openlibrary.org/b/isbn/9780000000041-L.jpg",
+      "available": true
+    },
+    {
+      "id": 42,
+      "name": "Cien años de soledad Vol 42",
+      "author": "Yuval Noah Harari",
+      "year": 2008,
+      "isbn10": "0000000042",
+      "isbn13": "9780000000042",
+      "category": "Novela",
+      "language": "Inglés",
+      "description": "Descripción del libro Cien años de soledad Vol 42.",
+      "reviews": [
+        "Muy bueno",
+        "Recomendado"
+      ],
+      "cover": "https://covers.openlibrary.org/b/isbn/9780000000042-L.jpg",
+      "available": true
+    },
+    {
+      "id": 43,
+      "name": "1984 Vol 43",
+      "author": "Antoine de Saint-Exupéry",
+      "year": 2015,
+      "isbn10": "0000000043",
+      "isbn13": "9780000000043",
+      "category": "Historia",
+      "language": "Inglés",
+      "description": "Descripción del libro 1984 Vol 43.",
+      "reviews": [
+        "Muy bueno",
+        "Recomendado"
+      ],
+      "cover": "https://covers.openlibrary.org/b/isbn/9780000000043-L.jpg",
+      "available": true
+    },
+    {
+      "id": 44,
+      "name": "El Principito Vol 44",
+      "author": "James Clear",
+      "year": 2016,
+      "isbn10": "0000000044",
+      "isbn13": "9780000000044",
+      "category": "Desarrollo Personal",
+      "language": "Inglés",
+      "description": "Descripción del libro El Principito Vol 44.",
+      "reviews": [
+        "Muy bueno",
+        "Recomendado"
+      ],
+      "cover": "https://covers.openlibrary.org/b/isbn/9780000000044-L.jpg",
+      "available": true
+    },
+    {
+      "id": 45,
+      "name": "Harry Potter y la piedra filosofal Vol 45",
+      "author": "Yuval Noah Harari",
+      "year": 2021,
+      "isbn10": "0000000045",
+      "isbn13": "9780000000045",
+      "category": "Finanzas",
+      "language": "Español",
+      "description": "Descripción del libro Harry Potter y la piedra filosofal Vol 45.",
+      "reviews": [
+        "Muy bueno",
+        "Recomendado"
+      ],
+      "cover": "https://covers.openlibrary.org/b/isbn/9780000000045-L.jpg",
+      "available": true
+    },
+    {
+      "id": 46,
+      "name": "El Señor de los Anillos Vol 46",
+      "author": "Gabriel García Márquez",
+      "year": 1964,
+      "isbn10": "0000000046",
+      "isbn13": "9780000000046",
+      "category": "Historia",
+      "language": "Español",
+      "description": "Descripción del libro El Señor de los Anillos Vol 46.",
+      "reviews": [
+        "Muy bueno",
+        "Recomendado"
+      ],
+      "cover": "https://covers.openlibrary.org/b/isbn/9780000000046-L.jpg",
+      "available": true
+    },
+    {
+      "id": 47,
+      "name": "Sapiens Vol 47",
+      "author": "Dante Alighieri",
+      "year": 2005,
+      "isbn10": "0000000047",
+      "isbn13": "9780000000047",
+      "category": "Psicología",
+      "language": "Español",
+      "description": "Descripción del libro Sapiens Vol 47.",
+      "reviews": [
+        "Muy bueno",
+        "Recomendado"
+      ],
+      "cover": "https://covers.openlibrary.org/b/isbn/9780000000047-L.jpg",
+      "available": true
+    },
+    {
+      "id": 48,
+      "name": "Atomic Habits Vol 48",
+      "author": "Dan Brown",
+      "year": 1979,
+      "isbn10": "0000000048",
+      "isbn13": "9780000000048",
+      "category": "Fantasía",
+      "language": "Español",
+      "description": "Descripción del libro Atomic Habits Vol 48.",
+      "reviews": [
+        "Muy bueno",
+        "Recomendado"
+      ],
+      "cover": "https://covers.openlibrary.org/b/isbn/9780000000048-L.jpg",
+      "available": true
+    },
+    {
+      "id": 49,
+      "name": "El Código Da Vinci Vol 49",
+      "author": "Dan Brown",
+      "year": 2016,
+      "isbn10": "0000000049",
+      "isbn13": "9780000000049",
+      "category": "Desarrollo Personal",
+      "language": "Inglés",
+      "description": "Descripción del libro El Código Da Vinci Vol 49.",
+      "reviews": [
+        "Muy bueno",
+        "Recomendado"
+      ],
+      "cover": "https://covers.openlibrary.org/b/isbn/9780000000049-L.jpg",
+      "available": true
+    },
+    {
+      "id": 50,
+      "name": "La Metamorfosis Vol 50",
+      "author": "J.R.R. Tolkien",
+      "year": 1950,
+      "isbn10": "0000000050",
+      "isbn13": "9780000000050",
+      "category": "Ciencia",
+      "language": "Español",
+      "description": "Descripción del libro La Metamorfosis Vol 50.",
+      "reviews": [
+        "Muy bueno",
+        "Recomendado"
+      ],
+      "cover": "https://covers.openlibrary.org/b/isbn/9780000000050-L.jpg",
+      "available": true
+    }
+  ],
+  "rentals": [
+    {
+      "id": 1,
+      "bookId": 1,
+      "user": "Usuario1",
+      "rentalDate": "2026-02-24",
+      "days": 7
+    },
+    {
+      "id": 2,
+      "bookId": 2,
+      "user": "Usuario2",
+      "rentalDate": "2026-02-23",
+      "days": 7
+    },
+    {
+      "id": 3,
+      "bookId": 3,
+      "user": "Usuario3",
+      "rentalDate": "2026-02-22",
+      "days": 10
+    },
+    {
+      "id": 4,
+      "bookId": 4,
+      "user": "Usuario4",
+      "rentalDate": "2026-02-21",
+      "days": 9
+    },
+    {
+      "id": 5,
+      "bookId": 5,
+      "user": "Usuario5",
+      "rentalDate": "2026-02-20",
+      "days": 6
+    },
+    {
+      "id": 6,
+      "bookId": 6,
+      "user": "Usuario6",
+      "rentalDate": "2026-02-19",
+      "days": 9
+    },
+    {
+      "id": 7,
+      "bookId": 7,
+      "user": "Usuario7",
+      "rentalDate": "2026-02-18",
+      "days": 4
+    },
+    {
+      "id": 8,
+      "bookId": 8,
+      "user": "Usuario8",
+      "rentalDate": "2026-02-17",
+      "days": 10
+    },
+    {
+      "id": 9,
+      "bookId": 9,
+      "user": "Usuario9",
+      "rentalDate": "2026-02-16",
+      "days": 9
+    },
+    {
+      "id": 10,
+      "bookId": 10,
+      "user": "Usuario10",
+      "rentalDate": "2026-02-15",
+      "days": 4
+    },
+    {
+      "id": 11,
+      "bookId": 11,
+      "user": "Usuario11",
+      "rentalDate": "2026-02-14",
+      "days": 8
+    }
+  ]
+}
